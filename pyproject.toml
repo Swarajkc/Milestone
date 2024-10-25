@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "snowsql"
+version = "0.1.0"
+description = ""
+authors = ["swarajkc"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+snowflake-connector-python = "^3.12.2"
+python-decouple = "^3.8"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[virtualenvs]
+in-project = true
