@@ -1,5 +1,0 @@
-assumptions in linear regression:
-1. No multicollinearity ie. functions are not related to each other
-2. linearity x->y relationship linear in nature:- linear banauna ko lagi feature transformation use garne:- linear regresssion ko lagi
-3. normality of residuals
-4. no patterns in error, Errors are scattered
